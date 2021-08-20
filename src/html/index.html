@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Tela de login e cadastro</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+      integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- Primeira content -->
+    <div class="container">
+      <div class="content first-content">
+        <div class="first-column">
+          <h2 class="title title-primary">bem vindo de volta!</h2>
+          <p class="description description-primary">
+            Para se manter conectado
+          </p>
+          <p class="description description-primary">
+            por favor faça login com seus dados pessoais
+          </p>
+          <button id="signin" class="btn btn-primary">entrar</button>
+        </div>
+        <div class="second-column">
+          <!--<img src="../assets/apple.svg" alt="logo" height="70" width="300" /> -->
+
+          <img
+            src="https://img.icons8.com/pastel-glyph/64/000000/apple--v2.png"
+          />
+          <h2 class="title title-second">criar uma conta</h2>
+          <!-- Social media -->
+          <div class="social-media">
+            <ul class="list-social-media">
+              <a class="link-social-media" href="#">
+                <li class="item-social-media">
+                  <i class="fab fa-facebook-f"></i>
+                </li>
+              </a>
+              <a class="link-social-media" href="#">
+                <li class="item-social-media">
+                  <i class="fab fa-google-plus-g"></i>
+                </li>
+              </a>
+              <a class="link-social-media" href="#">
+                <li class="item-social-media">
+                  <i class="fab fa-linkedin-in"></i>
+                </li>
+              </a>
+            </ul>
+          </div>
+
+          <p class="description description-second">
+            ou use sua rede social para entrar:
+          </p>
+          <!--Formulário-->
+          <form class="form">
+            <label class="label-input" for="">
+              <i class="fas fa-user icon-modify"></i>
+              <input type="text" placeholder="Seu nome" />
+            </label>
+
+            <label class="label-input" for="">
+              <i class="fas fa-mobile icon-modify"></i>
+              <input type="email" placeholder="Seu número de celular" />
+            </label>
+
+            <label class="label-input" for="">
+              <i class="fas fa-envelope icon-modify"></i>
+              <input type="password" placeholder="Seu e-mail" />
+            </label>
+            <label class="label-input" for="">
+              <i class="fas fa-lock icon-modify"></i>
+              <input type="password" placeholder="Digite uma senha forte" />
+            </label>
+            <label class="label-input" for="">
+              <i class="fas fa-lock icon-modify"></i>
+              <input type="password" placeholder="Digite a senha novamente" />
+            </label>
+            <button class="btn btn-second">inscrever-se</button>
+          </form>
+        </div>
+      </div>
+      <!--Segunda content-->
+      <div class="content second-content">
+        <div class="first-column">
+          <h2 class="title title-primary">olá, usuário!</h2>
+          <p class="description description-primary">
+            insira seus dados pessoais
+          </p>
+          <p class="description description-primary">
+            e complete seu cadastro com a gente
+          </p>
+          <button id="signup" class="btn btn-primary">inscrever-se</button>
+        </div>
+        <div class="second-column">
+          <!-- <img src="../assets/apple.svg" alt="logo" height="70" width="300" /> -->
+
+          <img
+            src="https://img.icons8.com/pastel-glyph/64/000000/apple--v2.png"
+          />
+          <h2 class="title title-second">entrar na minha conta</h2>
+          <!-- Social media -->
+          <div class="social-media">
+            <ul class="list-social-media">
+              <a class="link-social-media" href="#">
+                <li class="item-social-media">
+                  <i class="fab fa-facebook-f"></i>
+                </li>
+              </a>
+              <a class="link-social-media" href="#">
+                <li class="item-social-media">
+                  <i class="fab fa-google-plus-g"></i>
+                </li>
+              </a>
+              <a class="link-social-media" href="#">
+                <li class="item-social-media">
+                  <i class="fab fa-linkedin-in"></i>
+                </li>
+              </a>
+            </ul>
+          </div>
+
+          <p class="description description-second">
+            ou use sua conta de e-mail:
+          </p>
+          <form class="form">
+            <label class="label-input" for="">
+              <i class="fas fa-envelope icon-modify"></i>
+              <input type="password" placeholder="Seu e-mail" />
+            </label>
+
+            <label class="label-input" for="">
+              <i class="fas fa-lock icon-modify"></i>
+              <input type="password" placeholder="Password" />
+            </label>
+
+            <button class="btn btn-second">entrar</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!--Script JavaScript-->
+    <script src="..//js/app.js"></script>
+  </body>
+</html>
